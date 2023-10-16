@@ -1,1 +1,29 @@
-/** styling here **/
+/** COLORS **/
+
+:root {
+    --heading: #efd0caff;
+    --paragraph: #c1bcacff;
+    --accent: #979b8dff;
+    --lightBg: #5c7457ff;
+    --darkBg: #214e34ff;
+}
+
+.heading {
+    color: var(--heading);
+}
+
+.paragraph {
+    color: var(--paragraph);
+}
+
+.accent {
+    background-color: var(--accent);
+}
+
+.lightBg {
+    background-color: var(--lightBg);
+}
+
+.darkBg {
+    background-color: var(--darkBg);
+}

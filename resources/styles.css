@@ -1,23 +1,18 @@
 /** COLORS **/
 
 :root {
-    --heading: #efd0caff;
-    --paragraph: #c1bcacff;
-    --accent: #979b8dff;
+    --lightTxt: #c1bcacff;
+    --darkTxt: #979b8dff;
     --lightBg: #5c7457ff;
     --darkBg: #214e34ff;
 }
 
-.heading {
-    color: var(--heading);
+.lightTxt {
+    color: var(--lightTxt);
 }
 
-.paragraph {
-    color: var(--paragraph);
-}
-
-.accent {
-    background-color: var(--accent);
+.darkTxt {
+    color: var(--darkTxt);
 }
 
 .lightBg {

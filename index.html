@@ -16,17 +16,17 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg darkBg d-flex justify-content-between">
+    <header class="navbar navbar-expand-lg darkBg">
         <a class="navbar-brand" href="#">
-            <img src="resources/images/logo.svg" height="150px" alt="BQ">
+            <img src="resources/images/logo.svg" alt="Logo">
         </a>
 
-        <button class="navbar-toggler paragraph" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon paragraph"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse paragraph" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link paragraph" href="#about">About</a>
@@ -52,7 +52,7 @@
     </header>
 
 
-    <main class="accent">
+    <main>
         <section id="#about">
             <!-- TODO -->
             <h1>About</h1>
@@ -80,12 +80,12 @@
         </section>
     </main>
 
-    <footer class="d-flex justify-content-between darkBg">
-        <div>
+    <footer>
+        <div class="container darkBg">
             <h2 class="text-center heading">Contact</h2>
 
             <div class="row">
-                <div>
+                <div class="col-md-6 text-center">
                     <a href="https://www.linkedin.com/in/bernadette-quinto/" target="_blank">
                         <i class="fab fa-linkedin paragraph"></i>
                     </a>
@@ -94,18 +94,18 @@
                         <i class="fab fa-github paragraph"></i>
                     </a>
                 </div>
-            </div>
 
-            <div>
-                <p class="paragraph">
-                    <i class="fa fa-map-marker"></i>
-                    Phone: +63 998 467 4873
-                </p>
+                <div class="col-md-6 text-center">
+                    <p class="paragraph">
+                        <i class="fa fa-map-marker"></i>
+                        Phone: +63 998 467 4873
+                    </p>
 
-                <p class="paragraph">
-                    <i class="fa fa-envelope"></i>
-                    Email: bbernaquinto@gmail.com
-                </p>
+                    <p class="paragraph">
+                        <i class="fa fa-envelope"></i>
+                        Email: bbernaquinto@gmail.com
+                    </p>
+                </div>
             </div>
         </div>
     </footer>

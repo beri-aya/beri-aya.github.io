@@ -22,3 +22,7 @@
 .darkBg {
     background-color: var(--darkBg);
 }
+
+.navlink .lightTxt {
+    color: var(--lightTxt);
+}

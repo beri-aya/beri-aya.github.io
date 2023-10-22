@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bernadette Hayati Quinto's Portfolio">
-    <meta name="keywords" content="portfolio, web development">
-    <meta name="author" content="Bernadette Hayati Quinto">
     <link rel="icon" href="resources\images\favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="resources\styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -16,95 +13,109 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg darkBg p-3">
-        <a class="navbar-brand" href="#">
-            <img src="resources/images/logo.svg" height="50px" alt="Logo">
-        </a>
+    <header>
+        <nav class="navbar navbar-expand-lg darkBg p-3">
+            <a class="navbar-brand" href="#">
+                <img src="resources/images/logo.svg" height="50px" alt="BQ" id="lightTxt">
+            </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon lightTxt"></span>
-        </button>
+            <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link lightTxt" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link lightTxt" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link lightTxt" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link lightTxt" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link lightTxt" href="#projects">Projects</a>
-                </li>
-                <!-- TODO
-                <li class="nav-item">
-                    <a class="nav-link lightTxt" href="[insert path to resume pdf here]" download>Resume</a>
-                </li>
-                -->
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse p-2" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link lightTxt" href="#about" id="lightTxt">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" id="lightTxt">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education" id="lightTxt">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience" id="lightTxt">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" id="lightTxt">Projects</a>
+                    </li>
+                    <!-- TODO
+                  <li class="nav-item">
+                      <a class="nav-link" href="[insert path to resume pdf here]" id="lightTxt" download>Resume</a>
+                  </li>
+                  -->
+                </ul>
+            </div>
+        </nav>
     </header>
 
-
-    <main class="lightBg">
-        <section id="#about">
-            <h1 class="lightTxt">About</h1>
-            <p class="darkTxt">test text</p>
+    <main class="p-4">
+        <section id="about" class="row">
+            <h2 class="accentBg accentTxt p-5 col-1 order-5">About</h2>
+            <!-- your image here -->
+            <div class="d-flex align-items-center justify-content-end fs-5 col">
+                <p>test text</p>
+            </div>
         </section>
 
-        <section id="education">
-            <h1 class="lightTxt">Education</h1>
-            <p class="darkTxt">test text</p>
+        <section id="skills" class="row">
+            <h2 class="accentBg accentTxt p-5 col-1">Skills</h2>
+            <!-- add skill images here -->
+            <div class="d-flex align-items-center justify-content-start fs-5 col">
+                <p>test text</p>
+            </div>
         </section>
 
-        <section id="experience">
-            <h1 class="lightTxt">Experience</h1>
-            <p class="darkTxt">test text</p>
+        <section id="education" class="row">
+            <h2 class="accentBg accentTxt p-5 col-1 order-2">Education</h2>
+            <!-- in paragraph form education information here -->
+            <div class="d-flex align-items-center justify-content-end fs-5 col">
+                <p>test text</p>
+            </div>
         </section>
 
-        <section id="skills">
-            <h1 class="lightTxt">Skills</h1>
-            <p class="darkTxt">test text</p>
+        <section id="experience" class="row align-middle">
+            <h2 class="accentBg accentTxt p-5 col-1">Experience</h2>
+            <!-- in paragraph form experience information here -->
+            <div class="d-flex align-items-center justify-content-start fs-5 col">
+                <p>test text</p>
+            </div>
         </section>
 
-        <!-- TODO 
-        <section id="projects">
-            <h1 class="lightTxt">Projects</h1>
-            <p class="darkTxt">test text</p>
+        <section id="projects" class="row">
+            <h2 class="accentBg accentTxt p-5 col-1 order-2">Projects</h1> -->
+                <!-- image of project, short description, and link to source code here -->
+                <div class="d-flex align-items-center justify-content-end fs-5 col">
+                    <p>test text</p>
+                </div>
         </section>
-        -->
     </main>
 
-    <footer class="darkBg p-3">
+    <footer class="darkBg d-flex justify-content-between px-3">
         <div>
-            <h2 class="lightTxt">Contact</h2>
+            <h3 class="accentTxt pt-4 pb-3">Contact</h3>
 
-            <p class="darkTxt">
+            <p class="accentTxt">
                 <i class="fa fa-phone"></i>
-                Phone: +63 998 467 4873
+                Phone: +63 994 742 6230
             </p>
 
-            <p class="darkTxt">
+            <p class="accentTxt">
                 <i class="fa fa-envelope"></i>
                 Email: bbernaquinto@gmail.com
             </p>
         </div>
 
-        <div>
+        <div class="align-self-end">
             <div>
-                <a href="https://www.linkedin.com/in/bernadette-quinto/" target="_blank">
-                    <i class="fab fa-linkedin darkTxt"></i>
-                </a>
+                <a href="https://www.linkedin.com/in/example/" target="_blank"><i
+                        class="fab fa-linkedin accentTxt"></i></a>
 
-                <a href="https://github.com/beri-aya" target="_blank">
-                    <i class="fab fa-github darkTxt"></i>
-                </a>
+                <a href="https://github.com/example" target="_blank" class="px-2"><i
+                        class="fab fa-github accentTxt"></i></a>
             </div>
         </div>
     </footer>

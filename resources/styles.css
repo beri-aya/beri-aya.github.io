@@ -1,18 +1,24 @@
-/** COLORS **/
-
 :root {
-    --lightTxt: #c1bcacff;
-    --darkTxt: #979b8dff;
-    --lightBg: #5c7457ff;
-    --darkBg: #214e34ff;
+    --accentTxt: #f2e9e4;
+    --darkBg: #3a5a40;
+    --accent: #0e263b;
+    --mainBg: #e0d3cc;
 }
 
-.lightTxt {
-    color: var(--lightTxt);
+main {
+    background-color: var(--mainBg);
 }
 
-.darkTxt {
-    color: var(--darkTxt);
+.accentTxt {
+    color: var(--accentTxt);
+}
+
+#lightTxt {
+    color: var(--accentTxt);
+}
+
+.bgTxt {
+    color: var(--bgTxt);
 }
 
 .lightBg {
@@ -23,6 +29,18 @@
     background-color: var(--darkBg);
 }
 
-.navlink {
-    color: var(--lightTxt);
+.accentBg {
+    background-color: var(--accent);
+}
+
+#navbar-toggler {
+    background-color: var(--lightTxt);
+}
+
+section h2 {
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
 }

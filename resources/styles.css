@@ -1,3 +1,5 @@
+/** COLORS **/
+
 :root {
     --accentTxt: #f2e9e4;
     --darkBg: #3a5a40;
@@ -37,10 +39,17 @@ main {
     background-color: var(--lightTxt);
 }
 
-section h2 {
+.heading-right {
     letter-spacing: 0.5em;
     text-transform: uppercase;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
     white-space: nowrap;
+    writing-mode: vertical-rl;
+}
+
+.heading-left {
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }

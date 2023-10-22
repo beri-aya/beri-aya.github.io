@@ -40,7 +40,6 @@ main {
 section h2 {
     letter-spacing: 0.5em;
     text-transform: uppercase;
-    white-space: nowrap;
     writing-mode: vertical-rl;
     text-orientation: upright;
 }

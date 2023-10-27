@@ -46,6 +46,7 @@ main {
 
 #banner {
     /* background-image: ; */
+    /* note: make this teal or in between the header/footer and section headings */
     opacity: 0.2;
 }
 

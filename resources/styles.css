@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-/** COLORS **/
+/** colors and backgrounds **/
 
 :root {
     --accentTxt: #f2e9e4;
@@ -42,6 +43,11 @@ main {
 
 .secBg {
     background-color: rgba(230, 233, 235, 0.3);
+}
+
+#banner {
+    /* background-image: ; */
+    opacity: 0.2;
 }
 
 /** positions **/
